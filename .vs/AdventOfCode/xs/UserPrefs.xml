@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{BD2104B4-2002-4D60-97CE-95D528BB6977}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdventOfCode/Program.cs">
+    <Files>
+      <File FileName="AdventOfCode/Program.cs" Line="17" Column="1" />
+      <File FileName="AdventOfCode/Day2.txt" />
+      <File FileName="AdventOfCode/Day1.cs" />
+      <File FileName="AdventOfCode/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AdventOfCode" expanded="True">
+            <Node name="AdventOfCode" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AdventOfCode PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -3,11 +3,8 @@ using System.IO;
 
 namespace AdventOfCode
 {
-    public class Day1
+    public class TwentyOneDayOne : AoC
     {
-
-        private string text;
-        private string[] numbers;
 
 
         //private Methods
@@ -17,7 +14,7 @@ namespace AdventOfCode
             int counter = 0;
             int comp = 0;
 
-            foreach (string value in numbers)
+            foreach (string value in Array)
             {
                 if (comp != 0 && comp < System.Convert.ToInt32(value))
                 {
@@ -34,9 +31,9 @@ namespace AdventOfCode
         {
             int counter = 0;
 
-            for (int i = 0; i < numbers.Length - 3; i++)
+            for (int i = 0; i < Array.Length - 3; i++)
             {
-                if (System.Convert.ToInt32(numbers[i]) + System.Convert.ToInt32(numbers[i + 1]) + System.Convert.ToInt32(numbers[i + 2]) < System.Convert.ToInt32(numbers[i + 1]) + System.Convert.ToInt32(numbers[i + 2]) + System.Convert.ToInt32(numbers[i + 3]))
+                if (System.Convert.ToInt32(Array[i]) + System.Convert.ToInt32(Array[i + 1]) + System.Convert.ToInt32(Array[i + 2]) < System.Convert.ToInt32(Array[i + 1]) + System.Convert.ToInt32(Array[i + 2]) + System.Convert.ToInt32(Array[i + 3]))
                 {
                     counter++;
                 }
@@ -48,10 +45,10 @@ namespace AdventOfCode
 
         //public Methods
 
-        public Day1()
+        public TwentyOneDayOne()
         {
-            text = File.ReadAllText("../../Day1.txt");
-            numbers = text.Split('\n');
+            Text = File.ReadAllText("../../TwentyOneDayOne.txt");
+            Array = Text.Split('\n');
         }
 
         public void Solutions()

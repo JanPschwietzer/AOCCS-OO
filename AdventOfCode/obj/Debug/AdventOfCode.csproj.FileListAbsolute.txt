@@ -1,6 +1,0 @@
-/Users/jan/Projects/AdventOfCode/AdventOfCode/bin/Debug/AdventOfCode.exe
-/Users/jan/Projects/AdventOfCode/AdventOfCode/bin/Debug/AdventOfCode.pdb
-/Users/jan/Projects/AdventOfCode/AdventOfCode/obj/Debug/AdventOfCode.csproj.AssemblyReference.cache
-/Users/jan/Projects/AdventOfCode/AdventOfCode/obj/Debug/AdventOfCode.csproj.CoreCompileInputs.cache
-/Users/jan/Projects/AdventOfCode/AdventOfCode/obj/Debug/AdventOfCode.exe
-/Users/jan/Projects/AdventOfCode/AdventOfCode/obj/Debug/AdventOfCode.pdb

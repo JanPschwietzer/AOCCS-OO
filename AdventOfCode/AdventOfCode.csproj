@@ -32,12 +32,15 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Day1.cs" />
-    <Compile Include="Day2.cs" />
+    <Compile Include="TwentyOneDayOne.cs" />
+    <Compile Include="TwentyOneDayTwo.cs" />
+    <Compile Include="AoC.cs" />
+    <Compile Include="TwentyOneDayThree.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Day1.txt" />
-    <None Include="Day2.txt" />
+    <None Include="TwentyOneDayOne.txt" />
+    <None Include="TwentyOneDayTwo.txt" />
+    <None Include="EmptyTextFile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

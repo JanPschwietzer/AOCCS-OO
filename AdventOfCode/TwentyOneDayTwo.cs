@@ -5,10 +5,8 @@ using System.Collections.Generic;
 
 namespace AdventOfCode
 {
-    public class Day2
+    public class TwentyOneDayTwo : AoC
     {
-        private string text;
-        private string[] array;
         private string[] arraySplitted;
 
 
@@ -22,14 +20,14 @@ namespace AdventOfCode
          * 
          */
 
-        private string[] SplitSpacesInArray(string[] array)
+        private string[] SplitSpacesInArray()
         {
 
             List<string> newArray = new List<string>();
 
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < Array.Length; i++)
             {
-                string[] valueCut = array[i].Split(null);
+                string[] valueCut = Array[i].Split(null);
 
                 for (int j = 0; j < valueCut.Length; j++)
                 {
@@ -98,11 +96,11 @@ namespace AdventOfCode
 
         //public Methods
 
-        public Day2()
+        public TwentyOneDayTwo()
         {
-            text = File.ReadAllText("../../Day2.txt");
-            array = text.Split('\n');
-            arraySplitted = SplitSpacesInArray(array);
+            Text = File.ReadAllText("../../TwentyOneDayTwo.txt");
+            Array = Text.Split('\n');
+            arraySplitted = SplitSpacesInArray();
         }
 
         public void Solutions()

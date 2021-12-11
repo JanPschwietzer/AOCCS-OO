@@ -6,11 +6,14 @@ namespace AdventOfCode
     {
         public static void Main(string[] args)
         {
-            Day1 day1 = new Day1();
+            TwentyOneDayOne day1 = new TwentyOneDayOne();
             day1.Solutions();
 
-            Day2 day2 = new Day2();
+            TwentyOneDayTwo day2 = new TwentyOneDayTwo();
             day2.Solutions();
+
+            TwentyOneDayThree day3 = new TwentyOneDayThree();
+            day3.Solutions();
         }
     }
 }

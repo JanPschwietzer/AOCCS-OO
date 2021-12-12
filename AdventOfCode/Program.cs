@@ -14,6 +14,10 @@ namespace AdventOfCode
 
             TwentyOneDayThree day3 = new TwentyOneDayThree();
             day3.Solutions();
+
+
+            TwentyOneDayFour day4 = new TwentyOneDayFour();
+            day4.Solutions();
         }
     }
 }

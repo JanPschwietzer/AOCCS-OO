@@ -36,11 +36,12 @@
     <Compile Include="TwentyOneDayTwo.cs" />
     <Compile Include="AoC.cs" />
     <Compile Include="TwentyOneDayThree.cs" />
+    <Compile Include="TwentyOneDayFour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TwentyOneDayOne.txt" />
     <None Include="TwentyOneDayTwo.txt" />
-    <None Include="EmptyTextFile.txt" />
+    <None Include="TwentyOneDayFour.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

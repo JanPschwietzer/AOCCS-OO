@@ -2,26 +2,15 @@
 
 namespace AdventOfCode
 {
-    public class AoC
+    public interface IAoC
     {
-        private string text;
-        private string[] array;
+        string Text { get; }
+        string[] Array { get; }
 
-        public string Text
-        {
-            get { return text;}
-            set
-            {
-                text = value;
-            }
-        }
-        public string[] Array
-        {
-            get { return array; }
-            set
-            {
-                array = value;
-            }
-        }
+
+
+        int StarOne();
+        int StarTwo();
+        void Solutions();
     }
 }

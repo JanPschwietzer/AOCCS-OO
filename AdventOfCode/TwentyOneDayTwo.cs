@@ -5,9 +5,32 @@ using System.Collections.Generic;
 
 namespace AdventOfCode
 {
-    public class TwentyOneDayTwo : AoC
+    public class TwentyOneDayTwo : IAoC
     {
+        string text;
+        string[] array;
+
         private string[] arraySplitted;
+
+
+        //getter/setter
+
+        public string Text
+        {
+            get { return text; }
+            set
+            {
+                this.text = value;
+            }
+        }
+        public string[] Array
+        {
+            get { return array; }
+            set
+            {
+                this.array = value;
+            }
+        }
 
 
 
@@ -47,7 +70,7 @@ namespace AdventOfCode
          * 
          */
 
-        private int StarOne()
+        public int StarOne()
         {
             int posX = 0;
             int posY = 0;
@@ -70,7 +93,7 @@ namespace AdventOfCode
          * 
          */
 
-        private int StarTwo()
+        public int StarTwo()
         {
             int posX = 0;
             int posY = 0;

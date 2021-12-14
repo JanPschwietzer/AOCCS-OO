@@ -5,10 +5,31 @@ using System.Linq;
 
 namespace AdventOfCode
 {
-    public class TwentyOneDayFour : AoC
+    public class TwentyOneDayFour : IAoC
     {
+        string text;
+        string[] array;
+
         private string[] clearedArray;
         private string[] numbers;
+
+        //getter/setter
+
+        public string Text
+        {
+            get { return text; }
+            set { text = value; }
+        }
+        public string[] Array
+        {
+            get { return array; }
+            set { array = value; }
+        }
+
+
+
+
+
 
         private string[] ClearUpData()
         {
@@ -26,7 +47,7 @@ namespace AdventOfCode
             return list.ToArray();
         }
 
-        private int StarOne()
+        public int StarOne()
         {
             int index = -1;
             int winningNumber = 0;
@@ -93,6 +114,11 @@ namespace AdventOfCode
             return ret * winningNumber;
         }
 
+
+        public int StarTwo()
+        {
+            return -1;
+        }
 
 
         public TwentyOneDayFour()

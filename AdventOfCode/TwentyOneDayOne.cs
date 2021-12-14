@@ -3,13 +3,37 @@ using System.IO;
 
 namespace AdventOfCode
 {
-    public class TwentyOneDayOne : AoC
+    public class TwentyOneDayOne : IAoC
     {
+
+        string text;
+        string[] array;
+
+
+        //Getter/Setter
+
+        public string Text
+        {
+            get { return text; }
+            set
+            {
+                this.text = value;
+            }
+        }
+        public string[] Array
+        {
+            get { return array; }
+            set
+            {
+                this.array = value;
+            }
+        }
+
 
 
         //private Methods
 
-        private int StarOne()
+        public int StarOne()
         {
             int counter = 0;
             int comp = 0;
@@ -27,7 +51,7 @@ namespace AdventOfCode
         }
 
 
-        private int StarTwo()
+        public int StarTwo()
         {
             int counter = 0;
 

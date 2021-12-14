@@ -6,18 +6,19 @@ namespace AdventOfCode
     {
         public static void Main(string[] args)
         {
-            TwentyOneDayOne day1 = new TwentyOneDayOne();
-            day1.Solutions();
+            int numOfDays = 4;
 
-            TwentyOneDayTwo day2 = new TwentyOneDayTwo();
-            day2.Solutions();
+            IAoC[] IAdventofCode = new IAoC[numOfDays];
 
-            TwentyOneDayThree day3 = new TwentyOneDayThree();
-            day3.Solutions();
+            IAdventofCode[0] = new TwentyOneDayOne();
+            IAdventofCode[1] = new TwentyOneDayTwo();
+            IAdventofCode[2] = new TwentyOneDayThree();
+            IAdventofCode[3] = new TwentyOneDayFour();
 
-
-            TwentyOneDayFour day4 = new TwentyOneDayFour();
-            day4.Solutions();
+            foreach (IAoC Day in IAdventofCode)
+            {
+                Day.Solutions();
+            }
         }
     }
 }

@@ -6,11 +6,30 @@ using System.Linq;
 
 namespace AdventOfCode
 {
-    public class TwentyOneDayThree : AoC
+    public class TwentyOneDayThree : IAoC
     {
+        string text;
+        string[] array;
 
 
-        private int StarOne()
+        //getter/setter
+
+        public string Text
+        {
+            get { return text; }
+            set { this.text = value; }
+        }
+
+        public string[] Array
+        {
+            get { return array; }
+            set { this.array = value; }
+        }
+
+
+
+
+        public int StarOne()
         {
             int counter1 = 0;
             int counter0 = 0;
